@@ -1,0 +1,83 @@
+
+.about-me h2{
+    
+    font-size: 45px;
+    margin-top: 20px;
+    text-align: center;
+}
+.about-me p{
+    
+    width: 1300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+.skill-details{
+    margin-top: 30px;
+}
+.skill-details h2{
+    font-size: 40px;
+    text-align: center;
+}
+.skill-set{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: 2px solid black;
+    background: rgb(185, 185, 185);
+    border-radius: 20px;
+    height:150px;
+}
+.skill {
+  margin: 20px 0;
+}
+
+.skill p {
+    font-size: 16px;
+  display: inline-block;
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.skill-bar {
+    margin-top: 10px;
+  width: 100px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  
+  overflow: hidden;
+  height: 20px;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 20px;
+  background-color: black;
+  border: 2px solid black;
+  width: 0;
+  transition: width 1s ease-in-out;
+}
+
+/* Set skill levels */
+.skill-level.html {
+  width: 90%; /* Adjust based on skill level */
+}
+
+.skill-level.css {
+  width: 75%;
+}
+.skill-level.JavaScript {
+  width: 55%;
+}
+.skill-level.java {
+  width: 80%;
+}
+.skill-level.git {
+  width: 92%;
+}
+
